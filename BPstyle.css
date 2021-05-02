@@ -1,0 +1,50 @@
+.navbar{
+  background-color: #ffb8c1 !important;
+}
+.navbar .navbar-brand {
+  color: #000;
+}
+.navbar .navbar-nav li a{
+  color: #000 !important;
+}
+
+/* .navbar .nav-item .dropdown-menu  .dropdown-item{
+  color: #000 ;
+  background-color: #ffb8c1 !important;
+} */
+ 
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+  color: #000;
+  background-color: #ffb8c1 !important;
+  opacity: 0.75;
+}
+.body{
+  background-color: black;
+}
+
+.card-header {
+  background-color: #ff87c3;
+  padding: 0rem;
+}
+.btn-link{
+  color: #000;
+  font-weight: bold;
+}
+/* .carousel-item{
+  height: 457px;
+  width: 540;
+} */
+
+.header-logo { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 180px;
+}
+
+.jumbotron {
+  background: url("all44.png");
+  /* opacity: ; */
+  color: #000000;
+}
