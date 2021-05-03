@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Basic Css</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet"> 
+
   <style>
     div {
-      width: 300px;
-      height: 150px;
       background-color: salmon;
+      text-align: center;
     }
   </style>
 
 </head>
-
 <body>
   <!-- 3 ways to writing css in web page-->
   <div style="width:300px; height:150px; background-color:red;">1.Inline Style</div>
@@ -24,6 +25,60 @@
   <div>2.Internal Style</div>
   <br>
   <div class="stdiv">3.External Style</div>
+
+  <h1>How to use font in website</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In voluptatem accusantium rerum repudiandae sed? At deserunt eum consequatur alias voluptate quam totam quaerat saepe modi, facilis placeat? Quod, aut nam!</p>
+
+  <!-- Background Image -->
+  <div class="bg_img"></div>
+
+  <!-- Border Style 
+        dotted - Defines a dotted border
+        dashed - Defines a dashed border
+        solid - Defines a solid border
+        double - Defines a double border
+        groove - Defines a 3D grooved border. The effect depends on the border-color value
+        ridge - Defines a 3D ridged border. The effect depends on the border-color value
+        inset - Defines a 3D inset border. The effect depends on the border-color value
+        outset - Defines a 3D outset border. The effect depends on the border-color value
+        none - Defines no border
+        hidden - Defines a hidden border
+  -->
+  
+  <div class="dotted"><h2>This is a dotted border</h2></div>
+  <div class="dashed"><h2>This is a dashed border</h2></div>
+  <div class="solid"><h2>This is a solid border</h2></div>
+  <div class="double"><h2>This is a double border</h2></div>
+  <div class="groove"><h2>This is a groove border</h2></div>
+  <div class="ridge"><h2>This is a ridge border</h2></div>
+  <div class="inset"><h2>This is a inset border</h2></div>
+  <div class="outset"><h2>This is a outset border</h2></div>
+  <div class="none"><h2>This is a non border</h2></div>
+  <div class="hidden"><h2>This is a hidden border</h2></div>
+  <div class="mix"><h2>This is a mix border</h2></div>
+  <div class="shorthand"><h2>This is a shorthand border</h2></div>
+  <p class="shorthand">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quibusdam.</p>
+  <div class="norm"><h2>This is a norm border</h2></div>
+  <p class="norm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quibusdam.</p>
+
+  <!-- Box Model -->
+  <div class="box_model"><h2>box_model</h2></div>
+  <div class="box_model2"><h2>box_model2</h2></div>
+
+  <!-- Display -->
+  <div class="inli">This is a inline div</div>
+  <div class="inli">This is a inline div</div>
+  <div class="inli">This is a inline div</div>
+  <span class="disp_none">This is a display none span</span>
+  <span class="blck">This is a block span</span>
+  <span class="disp_hidden">This is a visibility hidden span</span>
+  <span class="blck">This is a block span</span>
+  <span class="blck">This is a block span</span>
+
+  <!-- Width & Max-Width -->
+  <div class="ex_width">This is a Width</div>
+  <div class="ex_max_width">This is a Max-Width</div>
+  
 
 </body>
 

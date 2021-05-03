@@ -1,5 +1,150 @@
-.stdiv{
+.stdiv {
   width: 300px;
   height: 150px;
-  background-color:mediumslateblue;
+  background-color: rgba(123, 104, 238, 0.7);
+}
+.bg_img {
+  width: 1280px;
+  height: 1024px;
+  /*background-image: url(../image/all.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; /*x y*/
+  background: url(../image/all.jpg) no-repeat sandybrown; /*shot hand*/
+}
+@font-face {
+  font-family: Kanit;
+  src: url(../font/Kanit-Regular.woff);
+}
+
+div.dotted {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: dotted;
+}
+div.dashed {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: dashed;
+}
+div.solid {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: solid;
+}
+div.double {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: double;
+}
+div.groove {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: groove;
+}
+div.ridge {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: ridge;
+}
+div.inset {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: inset;
+}
+div.outset {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: outset;
+}
+div.none {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: none;
+}
+div.hidden {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: hidden;
+}
+div.mix {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-style: dotted dashed solid double;
+}
+.shorthand {
+  border: 10px dashed red; /*!Must be in order only*/
+}
+.norm {
+  border-width: 30px;
+  border-style: double;
+  border-color: seagreen;
+}
+.box_model {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  color: wheat;
+  border: 3px dashed lawngreen;
+  padding: 10px;
+}
+.box_model2 {
+  width: 300px;
+  height: 300px;
+  color: white;
+  font-size: 30px;
+  border: 3px dashed darkgreen;
+
+  margin-top: 5;
+  margin-right: 10;
+  margin-bottom: 15;
+  margin-left: 20;
+  margin: 5 10 15 20;   /*  top left right bottom*/
+  margin: 5 10 5;       /*? top left,right bottom*/
+  margin: 5 10;         /** top,bottom left,right*/
+  margin: 0 auto;
+
+  padding-top: 5;
+  padding-right: 10;
+  padding-bottom: 15;
+  padding-left: 20;
+  padding: 5 10 15 20;  /*  top left right bottom*/
+  padding: 5 10 5;      /*? top left,right bottom*/
+  padding: 5 10;        /** top,bottom left,right*/
+  padding: 0 auto;
+}
+.inli {
+  display: inline;
+}
+.blck {
+  background-color: yellow;
+  display: block;
+}
+.disp_none {
+  display: none;
+}
+.disp_hidden {
+  visibility: hidden;
+}
+.ex_width {
+  width: 1280px;
+  border: 10px solid orange;
+}
+.ex_max_width {
+  max-width: 1280px !important;
+  border: 10px solid #3a86ff;
+}
+body {
+  font-family: Kanit;
 }
