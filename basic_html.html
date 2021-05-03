@@ -13,6 +13,57 @@
     ul{
       list-style-type: none; /*disc,circle,square,decimal*/
     }
+    div{
+      background-color:lightgoldenrodyellow;
+    }
+    a{
+      background-color: green;
+    }
+    .box{
+      background-color: hotpink;
+      color: white;
+      margin: 10px;
+      padding: 20px;
+    }
+    .center{
+      text-align: center;
+    }
+    #myId{
+      background-color: salmon;
+      color: darkcyan;
+      margin: 5px;
+      padding: 10px;
+    }
+    .body2{
+      width: 1000px;
+      margin: 0 auto;
+    }
+    header{
+      height: 100px;
+      background-color:lightpink;
+    }
+    nav{
+      height: 50px;
+      background-color: lightgreen;
+    }
+    section{
+      float:left;
+      height: 200px;
+      width: 360px;
+      background-color: lightseagreen;
+    }
+    aside{
+      float: left;
+      height: 200px;
+      width: 640px;
+      background-color: lightcoral;
+    }
+    footer{
+      clear: both;
+      height: 100px;
+      background-color: lightyellow;
+    }
+    
   </style>
 
 </head>
@@ -33,12 +84,20 @@
   </p>
 
   <!-- HTML Formatting Element -->
-  <b>Text</b>             <!-- Bold Text-->
+  <b>submit< value="Sumit"/b>             <!-- Bold submit- value="Sumit"->
   <br>
-  <strong>Text</strong>   <!-- Strong Text-->
+  <strong>submit< vaue="Sumit"/strong>   <!-- Strong submit- value="Sumit"->
   <br>
-  <i>Text</i>             <!-- Italic Text-->
   <br>
+
+  <!-- Block/Inline Element -->
+  <div></div>
+  <i>Text</i>            <!-- Italic Text-->
+  <br>
+  <br>
+
+  <!-- Block/Inline Element -->
+  <div></div>
   <em>Text</em>           <!-- Emphasized Text-->
   <br>
   <mark>Text</mark>       <!-- Marked Text-->
@@ -61,11 +120,11 @@
   <img height="150px" width="300px" src="all.jpg" alt="Blackpink">
   <br>
 
-  <!-- <table> <list> -->
+  <!-- <table> -->
     <table>
       <tr>
         <th>FirstName</th>
-        <th>Surname</th>
+        <th>Lastname</th>
         <th>Age</th>
       </tr>
       <tr>
@@ -89,7 +148,8 @@
         <td>26</td>
       </tr>
     </table>
-    
+
+    <!-- <list> -->
     <ul> <!-- Unordered List-->
       <li>Janie Kim</li>
       <li>Roseanne Park</li>
@@ -102,7 +162,120 @@
       <li>Lalisa Manoban</li>
       <li>Kim Ji-soo</li>
     </ol>
-  
+    <br>
+
+    <!-- <form> <input> -->
+    <form >
+      <fieldset> <!-- Form Border -->
+        <legend>Blink Register Form</legend> <!-- Form Header-->      
+        <label for="firstname">FirstName</label>
+        <input type="text" placeholder="Enter your firstname...">
+        <label for="lastname">Lastname</label>
+        <input type="text" placeholder="Enter your lastname...">
+        <br>
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female" > Female
+        <br>
+        <label for="main">Choose your main</label>
+        <input type="checkbox" name="member" value="janie"> Janie
+        <input type="checkbox" name="member" value="rosé"> Rosé
+        <input type="checkbox" name="member" value="lisa"> Lisa
+        <input type="checkbox" name="member" value="ji-soo"> Ji-soo
+        <br>
+        <input type="submit" value="Sumit">
+      </fieldset>
+    </form>
+    <br>
+
+    <!-- Block/Inline Element -->
+    <div>
+      This is a block elements
+    </div>
+    <div>
+      This is a block elements
+    </div>
+    <a href="#">This is a inline elements</a>
+    <a href="#">This is a inline elements</a>
+    <a href="#">This is a inline elements</a>
+    <a href="#">This is a inline elements</a>
+    <br>
+
+    <!-- Class & Id -->
+    <div class="box">
+      <h2>This is a box 1</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="box center">
+      <h2>This is a box 2</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="box">
+      <h2>This is a box 3</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam provident ex odio eos cum corporis placeat et. Ullam non facere, necessitatibus, maiores hic qui sed a molestias recusandae, odit corrupti.</p>
+
+    <div id="myId">
+      <h2>This is a box 4</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <!-- <iframe> -->
+      <iframe src="Blackpink.html" width="1280" height="1024" frameborder="0"></iframe>
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/K9_VFxzCuQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- HTML5 Entities 
+        Result	Description	                            Entity Name   Entity Number
+                non-breaking space	                    &nbsp;	      &#160;
+             <	less than	                              &lt;          &#60;
+             >	greater than	                          &gt;	        &#62;
+             &	ampersand	                              &amp;	        &#38;
+             "	double quotation mark                   &quot;	      &#34;
+             '	single quotation mark (apostrophe)      &apos;	      &#39;
+             ¢	cent	                                  &cent;	      &#162;
+             £	pound	                                  &pound;	      &#163;
+             ¥	yen	                                    &yen;	        &#165;
+             €	euro	                                  &euro;	      &#8364;
+             ©	copyright	                              &copy;	      &#169;
+             ®	registered trademark	                  &reg;	        &#174;
+    -->
+     <p>
+      This is how to use html entities : example &lt; &#60; p &gt; &#62; &amp; &#38; &gt; &#62;
+    </p>
+
+    <!--  Semantic Element
+          <article>
+          <aside>
+          <details>
+          <figcaption>
+          <figure>
+          <footer>
+          <header>
+          <main>
+          <mark>
+          <nav>
+          <section>
+          <summary>
+          <time> 
+    -->
+    <div class="body2">
+    <header>
+      Header
+    </header>
+    <nav>
+      Nav
+    </nav>
+    <section>
+      Section
+    </section>
+    <aside>
+      Aside
+    </aside>
+    <footer>
+      Footer
+    </footer>
+    </div>
+
 </body>
   
 
